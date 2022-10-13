@@ -1,69 +1,38 @@
+/* Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.clr {
+    clear: both;
+}
+
+/* Main Styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.7em;
     background-color: #939196;
     color: white;
 }
+
 h3 {
     padding-top: 15px;
 }
+
 h2 {
     padding-bottom: 10px;
     font-size: x-large;
 }
+
 a {
     text-decoration: none;
 }
 
- p {
-    color: white;
-    font-family: Arial, ui-monospace;
-}
-.clr {
-    clear: both;
-}
-
-.introduction {
-    text-align: center;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-    font-family: Arial, ui-monospace;
-}
-
-h2, h3, ul{
-    color: white;
-    font-family: Arial, ui-monospace;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-table {
-    width: 50%;
-    border-width: 2px;
-    border-style: solid;
-    border-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    font-family: Arial, ui-monospace;
-}
-table td, table th {
-    border-width: 2px;
-    border-color: white;
-    border-style: solid;
+p {
+    margin: 10px 0;
 }
 
 .py-3 {
@@ -75,38 +44,44 @@ table td, table th {
     background: #273C2C;
     color: white;
 }
+
 .bg-light {
     background: #939196;
     color: black;
 }
+
 .container {
     max-width: 1100px;
     margin: auto;
     padding: 0 20px;
     overflow: auto;
 }
+
 .text-primary {
     color: #FFAD05;
 }
+
 .bg-primary {
     background: #FFAD05;
 }
+
 .btn-dark {
-display: inline-block;
+    display: inline-block;
     font-size: 1.1em;
     color: white;
     background: #626868;
     padding: 13px 20px;
-    border:none;
+    border: none;
     cursor: pointer;
 }
+
 .btn-light {
     background: #273C2C;
     display: inline-block;
     font-size: 1.1em;
     color: white;
     padding: 13px 20px;
-    border:none;
+    border: none;
     cursor: pointer;
 }
 
@@ -151,8 +126,9 @@ display: inline-block;
     padding: 20px;
     display: block;
 }
-#navbar ul li a:hover,#navbar ul li a.current{
-background-color: #626868;
+
+#navbar ul li a:hover, #navbar ul li a.current {
+    background-color: #626868;
     color: #FFAD05;
     cursor: pointer;
 }
@@ -169,6 +145,7 @@ background-color: #626868;
 .l-heading {
     padding-bottom: 15px;
 }
+
 #contact-form .form-group {
     margin-bottom: 5px;
     display: block;
@@ -188,22 +165,26 @@ background-color: #626868;
     outline: none;
     border-color: #FFAD05;
 }
+
 /* Showcase */
 #showcase {
     background: url("../img/feathers.jpg") no-repeat center/cover;
     height: 70vh;
 }
+
 #showcase .showcase-content {
-color: white;
+    color: white;
     text-align: center;
     padding-top: 20vh;
 }
+
 #showcase .showcase-content h1 {
-font-size: 3em;
+    font-size: 3em;
     line-height: 1.2em;
 }
+
 #showcase .showcase-content p {
-padding-bottom: 20px;
+    padding-bottom: 20px;
     line-height: 1.7em;
     font-size: larger;
 }
@@ -212,6 +193,7 @@ padding-bottom: 20px;
 #home-info {
     height: 400px;
 }
+
 #home-info .info-img {
     float: left;
     width: 50%;
@@ -219,6 +201,7 @@ padding-bottom: 20px;
     min-height: 100%;
     border: 10px solid #273C2C;
 }
+
 #home-info .info-content {
     float: right;
     width: 50%;
@@ -227,6 +210,7 @@ padding-bottom: 20px;
     padding: 50px 30px;
     overflow: hidden;
 }
+
 #home-info .info-content p {
     padding-bottom: 30px;
     font-size: medium;
@@ -239,6 +223,28 @@ padding-bottom: 20px;
     padding: 50px;
     text-align: center;
 }
+
 .box i {
     margin-bottom: 10px;
 }
+
+/* About Info */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
