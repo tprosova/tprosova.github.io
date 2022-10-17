@@ -35,6 +35,10 @@ p {
     margin: 10px 0;
 }
 
+.py-2 {
+    padding-bottom: 20px;
+}
+
 .py-3 {
     padding: 30px;
 }
@@ -229,20 +233,38 @@ p {
 }
 
 /* About Info */
-#about-info .info-right {
-    float: right;
-    width: 50%;
-    min-height: 100%;
-}
-#about-info .info-right {
-    float: right;
-    width: 50%;
-    min-height: 100%;
-}
-
 #about-info .info-left {
     float: left;
     width: 50%;
     min-height: 100%;
 }
 
+
+/* Testimonials */
+#testimonials {
+    height: 600px;
+    background: url("../img/mountains.jpg") no-repeat center center/cover;
+    padding-top: 100px;
+
+}
+
+#testimonials h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: xx-large;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
