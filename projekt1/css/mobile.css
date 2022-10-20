@@ -5,6 +5,7 @@
 #navbar .logo {
     float: none;
     text-align: center;
+    font-size: 20px;
 }
 
 #navbar ul, #navbar ul li {
