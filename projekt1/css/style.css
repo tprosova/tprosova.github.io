@@ -104,7 +104,7 @@ p {
     color: white;
 }
 
-#logo {
+.logo {
     float: left;
     padding: 20px;
     font-weight: bolder;

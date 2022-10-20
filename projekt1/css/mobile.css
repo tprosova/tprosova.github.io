@@ -1,0 +1,60 @@
+#contact-info .box {
+    border-bottom: white dotted 2px;
+}
+
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul, #navbar ul li {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: white dotted 1px;
+}
+
+
+/* Home Info */
+#home-info {
+height: 550px;
+}
+
+#home-info .info-img {
+    display: none;
+}
+
+#home-info .info-content {
+    float: none;
+    width: 100%;
+}
+
+/* Boxes */
+.box {
+    float: none;
+    width: 100%;
+}
+
+/* About */
+#about-info .info-left {
+    float: none;
+    width: 100%;
+}
+
+.l-heading {
+    text-align: center;
+}
+
+#showcase .showcase-content {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+/* Testimonials */
+#testimonials {
+    height: 100%;
+    background: url("../img/mountains.jpg");
+}
