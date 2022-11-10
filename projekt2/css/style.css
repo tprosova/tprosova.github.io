@@ -13,9 +13,18 @@ body {
 .text-primary {
     color: #F177B0;
 }
+.text-primary2 {
+    color: #DBEFBC;
+}
 
 .bg-light {
     background: #F3FFEF;
+    color: #F79D9D;
+}
+
+.bg-dark {
+    background: #F79D9D;
+    color: #F3FFEF;
 }
 
 p {
@@ -61,6 +70,18 @@ a {
     padding: 3.5rem 0;
 }
 
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2.5rem;
+}
+
+.p-3 {
+    padding: 3.5rem;
+}
+
 .lead {
     font-size: 1.3rem;
     margin-bottom: 2rem;
@@ -84,7 +105,7 @@ a {
 /* Navbar */
 
 #navbar {
-    background: #F3FFEF;
+    background: #DBEFBC;
     color: #F177B0;
     padding: 1rem;
     display: flex;
@@ -117,7 +138,7 @@ a {
 }
 
 #navbar ul li a:hover {
-    background: #DBEFBC;
+    background: #F3FFEF;
     color: #F79D9D;
     border-radius: 5px;
 }
@@ -171,6 +192,7 @@ a {
 #about .items .item {
     text-align: center;
     padding: 1rem;
+    flex: 1;
 }
 
 #about .items .item i {
@@ -178,4 +200,18 @@ a {
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 50%;
+}
+
+/* Adopt */
+
+#adopt {
+    display: flex;
+}
+
+#adopt div {
+    flex: 1;
+}
+
+#adopt .adopt-img {
+    background: url("../img/tabby_kitten.jpg") no-repeat center center/cover;
 }
