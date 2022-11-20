@@ -13,8 +13,18 @@ body {
 .text-primary {
     color: #F177B0;
 }
+
+.bg-footer {
+    color: #F3FFEF;
+    background: #F177B0;
+}
+
 .text-primary2 {
     color: #DBEFBC;
+}
+
+.bg-primary {
+    background: #DBEFBC;
 }
 
 .bg-light {
@@ -102,6 +112,22 @@ a {
     background: #DBEFBC;
 }
 
+.btn-dark {
+    display: inline-block;
+    color: #F3FFEF;
+    background: #F177B0;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-dark:hover {
+    color: #DBEFBC;
+    background: #F79D9D;
+}
+
 /* Navbar */
 
 #navbar {
@@ -160,7 +186,7 @@ a {
     align-items: center;
     text-align: center;
     padding: 0 2rem;
-    background-color: rgba(0,0,0,0.22);
+    background-color: rgba(0, 0, 0, 0.22);
 }
 
 .source {
@@ -172,7 +198,7 @@ a {
     margin: 3px;
 }
 
-.source a{
+.source a {
     color: #F79D9D;
 }
 
@@ -213,5 +239,44 @@ a {
 }
 
 #adopt .adopt-img {
-    background: url("../img/tabby_kitten.jpg") no-repeat center center/cover;
+    background: url("../img/cat_love.jpg") no-repeat center center/cover;
+}
+
+#images .items {
+    display: flex;
+    justify-content: space-between;
+}
+
+#images .items img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+#contact {
+    display: flex;
+}
+
+#contact div {
+    flex: 2;
+}
+
+#contact h3 {
+    margin-top: 3rem;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contact .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
 }
