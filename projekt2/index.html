@@ -8,21 +8,22 @@
           name="description">
     <meta content="cats, cafe, coffee, tea"
           name="keywords">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
           integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
           referrerpolicy="no-referrer" rel="stylesheet"/>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="./css/widescreen.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/widescreen.css" media="screen and (min-width: 1100px)" rel="stylesheet">
+    <link href="./css/mobile.css" media="screen and (max-width: 768px)" rel="stylesheet">
     <title>Tabby Tearoom | Cat Cafe</title>
 </head>
 <body id="home">
 <nav id="navbar">
     <div id="logo"><a href="index.html"><span class="text-primary"><i class="fa-solid fa-cat"></i></span> Tabby Tearoom</a>
     </div>
+    <a href="#" id="hambac"><i class="fa fa-bars fa-2x"></i></a>
     <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -34,7 +35,7 @@
     <div class="showcase-content">
         <h1 class="l-heading">Welcome to <span class="text-primary">Tabby Tearoom!</span></h1>
         <p class="lead"><span class="text-primary">A purrfect world</span> filled with cats, tea, and even more cats</p>
-        <a href="#about" class="btn">Learn more</a>
+        <a class="btn" href="#about">Learn more</a>
     </div>
     <div class="source">Photo by <a
             href="https://unsplash.com/@gaellemarcel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gaelle
@@ -42,7 +43,7 @@
             href="https://unsplash.com/s/visual/2d3ffb40-64bc-423a-ba65-5660f770b948?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </div>
 </section>
-<section id="about" class="bg-light py-1">
+<section class="bg-light py-1" id="about">
     <div class="container">
         <h2 class="m-heading text-center"><span class="text-primary">About</span></h2>
         <div class="items">
@@ -76,29 +77,34 @@
         <h2 class="m-heading">
             <span class="text-primary2">Adopt</span> a cat
         </h2>
-        <p>Now, you might be thinking: "I wish I could take one of those adorable cats home!". Well, dont fret, we're about to let you in on a little secret: You can! All you have to do is pick out a cat that struck your eye, contact us, and soon you'll have yourself a new fuzzy friend. All our cats are fully socialized, so the two of you will get along in no time. If you're unsure, you can always just make a reservation and come see us in person. Both the cats and humans here would love to meet you! Just make sure you take care of our little friends, okay?</p>
+        <p>Now, you might be thinking: "I wish I could take one of those adorable cats home!". Well, dont fret, we're
+            about to let you in on a little secret: You can! All you have to do is pick out a cat that struck your eye,
+            contact us, and soon you'll have yourself a new fuzzy friend. All our cats are fully socialized, so the two
+            of you will get along in no time. If you're unsure, you can always just make a reservation and come see us
+            in person. Both the cats and humans here would love to meet you! Just make sure you take care of our little
+            friends, okay?</p>
 
     </div>
 </section>
 
-<section id="images" class="py-1 bg-light">
+<section class="py-1 bg-light" id="images">
     <div class="container">
         <h2 class="m-heading text-center">Currently up for <span class="text-primary">Adoption</span></h2>
         <div class="items py-1">
             <div>
-                <img src="./img/adoption_1.jpg" alt="cat">
+                <img alt="cat" src="./img/adoption_1.jpg">
             </div>
             <div>
-                <img src="./img/adoption_2.jpg" alt="cat">
+                <img alt="cat" src="./img/adoption_2.jpg">
             </div>
             <div>
-                <img src="./img/adoption_3.jpg" alt="cat">
+                <img alt="cat" src="./img/adoption_3.jpg">
             </div>
             <div>
-                <img src="./img/adoption_4.jpg" alt="cat">
+                <img alt="cat" src="./img/adoption_4.jpg">
             </div>
             <div>
-                <img src="./img/adoption_5.jpg" alt="cat">
+                <img alt="cat" src="./img/adoption_5.jpg">
             </div>
         </div>
     </div>
@@ -110,20 +116,20 @@
         <form>
             <div class="form-group">
                 <label for="name">Full name</label>
-                <input type="text" name="name" id="name">
+                <input id="name" name="name" type="text">
             </div>
             <div class="form-group">
                 <label for="email">E-mail</label>
-                <input type="text" name="email" id="email">
+                <input id="email" name="email" type="text">
             </div>
             <div class="form-group">
                 <label for="phone">Phone number</label>
-                <input type="text" name="phone" id="phone">
+                <input id="phone" name="phone" type="text">
             </div>
             <div class="form-group">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                <input type="submit" class="btn-dark" value="Send">
+                <textarea cols="30" id="message" name="message" rows="10"></textarea>
+                <input class="btn-dark" type="submit" value="Send">
             </div>
         </form>
     </div>
@@ -145,13 +151,13 @@
     </div>
 </section>
 
-<footer id="main-footer" class="bg-footer text-center py-1">
+<footer class="bg-footer text-center py-1" id="main-footer">
     <div class="container">Copyright &copy; Tabby Tearoom inc. 2022</div>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+<script crossorigin="anonymous"
         integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
     // Smooth scrolling
     $('#navbar a, .btn').on('click', function (event) {
@@ -165,7 +171,6 @@
             )
         }
     })
-
 
     var nav_sections = $('section');
     var main_nav = $('#navbar li, .mobile-nav');
@@ -201,6 +206,10 @@
                 $("#navbar ul li a").removeClass('active');
             }
         });
+    });
+
+    $('#navbar #hambac').click(function (){
+        $('#navbar ul').slideToggle("slow")
     });
 </script>
 </body>
