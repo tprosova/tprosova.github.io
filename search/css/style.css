@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    padding: 3rem 0;
+}
+
+/* Navbar */
+
+#navbar {
+    background: forestgreen;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.7rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background: white;
+    color: forestgreen;
+    border-radius: 20px;
+
+}
+
+/* Searchbar */
+#searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
