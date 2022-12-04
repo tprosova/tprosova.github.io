@@ -10,8 +10,9 @@ body {
 
 h1 {
     text-align: center;
-    font-size: xx-large;
+    font-size: xxx-large;
     padding: 3rem 0;
+    color: forestgreen;
 }
 
 /* Navbar */
@@ -45,12 +46,37 @@ h1 {
     background: white;
     color: forestgreen;
     border-radius: 20px;
-
 }
 
 /* Searchbar */
 #searchbar {
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    width: 30rem;
+    color: forestgreen;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: forestgreen solid 3px;
+    font-size: medium;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background: forestgreen;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    background: #273C2C;
 }
