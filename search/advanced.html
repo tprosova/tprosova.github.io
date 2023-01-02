@@ -19,8 +19,47 @@
             <li><a href="advanced.html">Advanced Search</a></li>
         </ul>
     </nav>
-    <h1>Google</h1>
 </section>
-
+<div><h1>Google</h1>
+<div class="odsazeni"><h2>Find pages with...</h2>
+    <form action="https://google.com/search">
+        <div class="searchbarAdvanced">
+            <div class="criteria">
+                all these words:
+            </div>
+            <div class="input">
+                <input type="text" name="as_q" class="form-input">
+            </div>
+        </div>
+        <div class="searchbarAdvanced">
+            <div class="criteria">
+                this exact word or phrase:
+            </div>
+            <div class="input">
+                <input type="text" name="as_epq" class="form-input">
+            </div>
+        </div>
+        <div class="searchbarAdvanced">
+            <div class="criteria">
+                any of these words:
+            </div>
+            <div class="input">
+                <input type="text" name="as_oq" class="form-input">
+            </div>
+        </div>
+        <div class="searchbarAdvanced">
+            <div class="criteria">
+                none of these words:
+            </div>
+            <div class="input">
+                <input type="text" name="as_eq" class="form-input">
+            </div>
+        </div>
+        <div id="advBtn">
+            <button type="submit" class="btn">Advanced Search</button>
+        </div>
+    </form>
+</div>
+</div>
 </body>
 </html>
